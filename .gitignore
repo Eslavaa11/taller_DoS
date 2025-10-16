@@ -1,0 +1,51 @@
+# --- Unity ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild*/
+[Bb]uilds*/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+sysinfo.txt
+
+# Scriptable Build Pipeline cache
+[Ss]erverData/
+Artifacts/
+# Rider / JetBrains
+.idea/
+*.sln.iml
+Assets/Plugins/Editor/JetBrains*
+
+# Visual Studio / C# build
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.suo
+*.svd
+*.pdb
+*.mdb
+
+# VSCode
+.vscode/
+
+# OS / Misc
+.DS_Store
+Thumbs.db
+
+# Crash/Reports
+*.stackdump
+
+# Unity auto-generated
+*.unityproj
+*.booproj
+*.tmp
+*.orig
+
+# Addressables / SBP
+[Aa]ddressableAssetsData/*/AssetGroups/*_packed_*.json
+[Aa]ddressableAssetsData/Android/*
+[Aa]ddressableAssetsData/iOS/*
+[Aa]ddressableAssetsData/Windows/*
